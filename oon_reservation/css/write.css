@@ -1,0 +1,60 @@
+.rest_date{padding-top: 7px;width: 80px;float: left;}
+.price_table table,th,tr,td{
+    border: 0 !important; 
+}
+.agree-div{-o-transition:.5s; -ms-transition:.5s; -moz-transition:.5s; -webkit-transition:.5s;transition:.5s;}
+.write-class td,th{vertical-align: middle !important;}
+.write-class th {width: 11%;}
+.multi-reserve-tab{
+    width: 100%;height: 40px;margin-bottom: 7px;margin-top: 7px;background: #ddd;cursor: pointer;-o-transition:.5s; -ms-transition:.5s; -moz-transition:.5s; -webkit-transition:.5s;transition:.5s;color: white;
+}
+.submited-this-room{background: #545454;}
+.multi-reserve-contents{
+    height: auto;display: none;border: 1px solid #ddd;
+}
+.multi-reserve-tab-child{padding: 10px;}
+.submit-btn-reserve{width: 150px; height: 43px; color: white; background: #3e3e3e; font-size: 16px; font-weight: bold; border: 0; margin-top: 15px;border-radius: 5px;}
+@media screen and (min-width:1000px){
+    
+    .tb_price{text-align: center;height: 100%;width: 100%;}
+    .aa{width: 48%;float: left;border: 1px solid #ababab;padding-bottom: 30px;height: 100%;}
+    .bb{width: 48%;float: right;border: 1px solid #ababab;padding-bottom: 10px;height: 100%;}
+    
+    .selected_info{padding: 30px 0px 10px;text-align: center;width: 100%;font-size: 16px;font-weight: 700;}
+    .reserve_date{color: #ff6559;font-size: 18px;padding-left: 8px;}
+    .tb_div{padding-top: 10px; width: 75%; margin: auto;}
+    .tb_price_div{padding-top: 10px;width: 80%;margin: auto;height: 100%;}
+    
+    #room_sale_price{color: red;}
+    #sum_price{color: blue;}
+    .tb_price td{font-size: 15px;padding: 7px 0;text-align: center;}
+    .room_data th{width: 38%;font-size: 15px;padding-bottom: 5px;} 
+    .room_data td {padding-bottom: 13px;width: 80%;font-size: 15px;}
+    .price_info{padding: 30px 0px 10px;text-align: center;width: 100%;font-size: 16px;font-weight: 700;}
+    .option_class{width: 50%;}
+}
+@media screen and (max-width:999px) {
+    /*.tb_price{height: 100%;width: 100%;margin: auto;}*/
+    .room_data{width: auto; margin: auto;}
+    
+    .aa{width: 48%;float: left;border: 1px solid #ababab;padding-bottom: 30px;height: 100%;}
+    .bb{width: 48%;float: right;border: 1px solid #ababab;padding-bottom: 10px;height: 100%;}
+
+    .selected_info{padding: 30px 0px 10px;text-align: center;width: 100%;font-size: 16px;font-weight: 700;}
+    .reserve_date{color: #ff6559;font-size: 18px;padding-left: 8px;}
+    .tb_div{padding-top: 10px;width: 90%;margin: auto;}
+    .tb_price_div{width: 100%;margin: auto;padding: 13px 0 0 0;}
+    .tb_price{padding-top: 20px;width: 80%;text-align: center;margin: auto;}
+    #room_sale_price{color: red;}
+    #sum_price{color: blue;}
+    .padding_table{    }
+    .tb_price td{font-size: 15px;padding: 7px 0;}
+    .room_data th{width: 38%;padding-bottom: 5px;} 
+    .room_data td {padding-bottom: 5px;width: 80%;}
+    .price_info{padding: 30px 0px 10px;text-align: center;width: 100%;font-size: 16px;font-weight: 700;}
+    .option_class{width: 100%;}
+}
+@media (max-width: 768px) {
+    .aa{width: 100%;float: left;border: 1px solid #ababab;padding-bottom: 30px;}
+    .bb{padding-top: 10px;width: 100%;float: right;padding-bottom: 10px;    margin-top: 30px;}
+}
